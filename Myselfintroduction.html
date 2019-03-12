@@ -1,0 +1,84 @@
+<!--  !!!!!!不要動到這邊的code!!!!!!
+
+作業：
+  1.把這份 code ， HTML跟CSS 都複製到自己的網頁裡 
+  2.把 HTML 裡面的字都改成自己的自我介紹
+
+  用 div 製作圖片的教學：
+      ㄧ、定義一個 div，給他取一個 class name 方便裝飾他
+      二、要有 width 跟 height
+      三、放入 background-image:url("圖片網址");
+      四、調整 background-size 跟 background-repeat
+
+  3. 把「關於我」裡面的圖片改成用 div 背景圖的方式呈現
+  4. 把「照片」的排版改成像這樣 https://imgur.com/2OPAcsb
+  5. 把「照片」的 photo1 photo2 photo3 加入自己喜歡的圖片
+
+
+!!!!!!!不要動到這邊的code!!!!!!!!!!!! -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>陳小姐的個人頁</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  
+  <header>
+    <div class="panel">
+      <div class="selfie"></div>
+      <h1>陳小姐</h1>
+      <p>一個喜歡看小說的女生</p>
+    </div>
+    
+  </header>
+  
+  <main>
+    <section class="about">
+      <h3>關於我</h3>
+      <div class="content-wrapper">
+        <img src="http://placekitten.com/200/300" alt="" />
+        <div class="content-p">
+          <p>文字敘述文字敘述文字敘述文字敘述</p>
+          <p>文字敘述文字敘述文字敘述文字敘述</p>
+          <p>文字敘述文字敘述文字敘述文字敘述</p>
+        </div>
+      </div>
+    </section>
+    
+    <section class="experience">
+      <h3>經歷</h3>
+      <p>寫一些自己的經歷：第一項</p>
+      <p>第二項</p>
+      <p>第三項</p>
+    </section>
+    
+    <section class="photos">
+      <h3>照片</h3>
+      <div class="photo-wrapper">
+          <div class="photo photo1"></div>
+          <div class="photo photo2"></div>
+          <div class="photo photo3"></div>
+      </div>
+    </section>
+    
+    <section class="contact">
+      <h3>聯絡方式</h3>
+      <h5>Email</h5>
+      <a href="mailto:hivivian@gmail.com">hivivian@gmail.com</a>
+      <h5>電話</h5>
+      <p>03-12345678</p>
+    </section>
+    
+    
+  </main>
+</body>
+
+</html>
