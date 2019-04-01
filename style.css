@@ -16,14 +16,14 @@ header {
   align-items:center;
   text-align: center;
   height: 100vh;
-  background-image: url('https://images.unsplash.com/photo-1550945233-716f16384ffd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-image: url('http://img1.wsimg.com/isteam/stock/29950');
   background-repeat: no-repeat; /* 這行 code 讓 圖片不會重複出現 */
   background-size: cover;
 }
 
 .panel{
   width:50vw;
-  height:40vh;
+  height:50vh;
   background-color: rgba(255,255,255,0.8);
   display:flex; 
   flex-direction: column;
@@ -38,10 +38,11 @@ header {
   height:100px;
   width:100px;
   border-radius:100%;
-  background-image: url("http://placekitten.com/200/300");
-  background-size: cover;
-  
+  background-image: url("images/Alpca.jpg");
+  background-size: 200% 200%;
+  background-position: 20% 10%;
 }
+
 main {
   display: flex;
   flex-direction: column;
@@ -59,24 +60,34 @@ h3 {
   text-align: center;
   margin: 10px;
   font-size: 25px;
+  margin-bottom:30px;
 }
 
 .about {
-  height: 50vh;
+  height: 70vh;
   background-color: rgba(0,0,0,0.1);
   padding:30px;
 }
 
 .about p {
   border: none;
-  height: 50px;
+  margin: 10px;
   color: rgb(10,10,10);
 }
+
 .content-wrapper {
   display: flex;
   justify-content: center;
   align-items:center;
 }
+
+.selfieBig{
+  height:200px;
+  width:200px;
+  background-image: url("images/03_christmas.jpg");
+  background-size: cover;
+}
+
 .content-p {
   display: flex;
   flex-direction: column;
@@ -84,18 +95,16 @@ h3 {
 }
 
 .experience {
-  height: 70vh;
+  height: 60vh;
   background-color: AliceBlue;
 }
-.experience h3{
-  margin-bottom:30px;
-}
+
 .experience p{
   margin:10px;
 }
 
 .photos{
-  height:100vh;
+  height:60vh;
 }
 
 .photo{
@@ -106,14 +115,22 @@ h3 {
   background-size: cover;
   margin:10px;
 }
+
+.photo-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
 .photo1{
-  background-image: url(https://placekitten.com/200/287);
+  background-image: url("images/PRISM.jpg");
 }
 .photo2{
-  background-image: url();
+  background-image: url("images/facebook.jpg");
 }
 .photo3{
-  background-image: url();
+  background-image: url("images/Sale.jpg");
 }
 .contact {
   height: 50vh;
